@@ -87,6 +87,7 @@ for lidx in range(numsupportset):
     convolutionlayers.append(convembedding(Lambda(lambda x: x[:,lidx,:,:,:])(input1)))
 targetembedding = convembedding(Lambda(lambda x: x[:,-1,:,:,:])(input1))
 
+# Siamese like pairwise interactions
 siam = Siamify()
 pairwiseinteractions = defaultdict(list)
 
