@@ -10,3 +10,6 @@ Train a model with Full Context Embedding (FCE) defined as Siamese like pairwise
 ```
 python matchingnetworkwithrelationalembedding.py
 ```
+
+# Acknowledgement
+The data loading utility has been borrowed largely from https://github.com/AntreasAntoniou/MatchingNetworks
