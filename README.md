@@ -11,5 +11,10 @@ Train a model with Full Context Embedding (FCE) defined as Siamese like pairwise
 python matchingnetworkwithrelationalembedding.py
 ```
 
-# Acknowledgement
+## References
+[1] **Matching Networks for One Shot Learning**, Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Koray Kavukcuoglu and Daan Wierstra, https://arxiv.org/abs/1606.04080, 2016
+[2] **Siamese network for one shot-image recognition**, G Koch, R Zemel, and R Salakhutdinov, ICML Deep Learning workshop, 2015
+[3] **A simple neural network module for relational reasoning**, Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia and Timothy Lillicrap, https://arxiv.org/abs/1706.01427, 2017
+
+## Acknowledgement
 The data loading utility has been borrowed largely from https://github.com/AntreasAntoniou/MatchingNetworks
