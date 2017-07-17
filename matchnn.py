@@ -21,7 +21,8 @@ class MatchCosine(_Merge):
 
     def call(self,inputs):
         """
-        inputs in as array which contains the support set the embeddings, the target embedding as the second last value in the array, and true class of target embedding as the last value in the array
+        inputs in as array which contains the support set the embeddings, 
+        the target embedding as the second last value in the array, and true class of target embedding as the last value in the array
         """ 
         similarities = []
 
