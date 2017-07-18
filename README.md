@@ -1,5 +1,5 @@
-# Matching Network implementation in Keras
-Implementation of "Matching Networks for One Shot Learning" in Keras
+# Matching Networks implementation in Keras
+Implementation of [Matching Networks for One Shot Learning](https://arxiv.org/abs/1606.04080) in Keras
 
 In order to train a 5-way 1-shot model run:
 ```
