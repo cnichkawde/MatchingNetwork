@@ -105,7 +105,7 @@ for i in range(numsupportset):
     targetinteractions.append(aa)  
     pairwiseinteractions[i].append(aa) # add this interaction to the set of interaction for this member
 
-# Take 4 layer MLP transform on Mak pooling of interactions to serve as Full Context Embedding (FCE)
+# Take 4 layer MLP transform on Max pooling of interactions to serve as Full Context Embedding (FCE)
 maxi = Maximum()
 modelinputs = []
 for i in range(numsupportset):
