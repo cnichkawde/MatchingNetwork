@@ -2,7 +2,7 @@
 Implementation of "Matching network for one short learning" in Keras.
 A new kind of Full Context Embedding is define here which uses 
 Siamese like pairwise interaction and does a max pooling on these interaction.
-The pooled out is then forwarded to a multi layer perceptron.
+The pooled output is then forwarded to a multi layer perceptron.
 
 __author__ = Chetan Nichkawde
 """
