@@ -85,6 +85,6 @@ class OmniglotNShotDataset():
 
             support_cacheX.append(slice_x)
             support_cacheY.append(keras.utils.to_categorical(slice_y,self.classes_per_set))
-            target_cacheY.append(keras.utils.to_categorical(target_y,self.classes_per_set)[0])
+            target_cacheY.append(keras.utils.to_categorical(target_y,self.classes_per_set))
             
         return np.array(support_cacheX), np.array(support_cacheY), np.array(target_cacheY)
